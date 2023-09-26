@@ -1,0 +1,7 @@
+salesforce.ApexClass testWeeklyInsights {
+  apiVersion = 57
+  status = "Active"
+  fullName = "testWeeklyInsights"
+  content = file("salesforce/Records/ApexClass/testWeeklyInsights.cls")
+  _alias = "testWeeklyInsights"
+}

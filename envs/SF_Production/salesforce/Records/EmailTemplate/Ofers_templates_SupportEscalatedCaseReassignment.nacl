@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SupportEscalatedCaseReassignment@ud {
+  available = true
+  description = "Case reassignment email to new case owner on escalation"
+  encodingKey = "UTF-8"
+  name = "Support: Escalated Case Reassignment"
+  style = "none"
+  subject = "ESCALATED CASE {!Case.CaseNumber}"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SupportEscalatedCaseReassignment"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SupportEscalatedCaseReassignment/SupportEscalatedCaseReassignment.email")
+  _alias = "Ofers_templates/SupportEscalatedCaseReassignment"
+}

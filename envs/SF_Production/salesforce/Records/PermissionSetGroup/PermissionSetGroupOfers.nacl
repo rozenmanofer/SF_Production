@@ -1,0 +1,7 @@
+salesforce.PermissionSetGroup PermissionSetGroupOfers {
+  fullName = "PermissionSetGroupOfers"
+  hasActivationRequired = false
+  label = "PermissionSetGroupOfers"
+  status = "Updated"
+  _alias = "PermissionSetGroupOfers"
+}

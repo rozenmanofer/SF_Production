@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SUPPORTSelfServiceNewUserLoginInformationSAMPLE@ud {
+  available = true
+  description = "Notification of login and password to new Self-Service user"
+  encodingKey = "ISO-8859-1"
+  name = "SUPPORT:  Self-Service New User Login Information (SAMPLE)"
+  style = "none"
+  subject = "Your {!Organization.Name} Self-Service username and password"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SUPPORTSelfServiceNewUserLoginInformationSAMPLE"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SUPPORTSelfServiceNewUserLoginInformationSAMPLE/SUPPORTSelfServiceNewUserLoginInformationSAMPLE.email")
+  _alias = "Ofers_templates/SUPPORTSelfServiceNewUserLoginInformationSAMPLE"
+}
