@@ -1,0 +1,39 @@
+salesforce.ConnectedApp Ofers_Salto {
+  fullName = "Ofers_Salto"
+  contactEmail = "ofer.rozenman@salto.io"
+  label = "Ofers Salto"
+  oauthConfig = {
+    callbackUrl = "https://login.salesforce.com/services/oauth2/success"
+    consumerKey = "3MVG9I9urWjeUW06_mraXRR4NsjhCHuWd0uJ11C3ZwgQQ7a1uLc3mnsp.dQyTTWrpEd9Vt8llaHu3HyE9RPlo"
+    isAdminApproved = false
+    isClientCredentialEnabled = false
+    isCodeCredentialEnabled = false
+    isCodeCredentialPostOnly = false
+    isConsumerSecretOptional = false
+    isIntrospectAllTokens = false
+    isNamedUserJwtEnabled = false
+    isSecretRequiredForRefreshToken = true
+    scopes = [
+      "Basic",
+      "Api",
+      "Web",
+      "Full",
+      "Chatter",
+      "CustomApplications",
+      "RefreshToken",
+      "OpenID",
+      "CustomPermissions",
+      "Wave",
+      "Eclair",
+      "Pardot",
+      "Lightning",
+      "Content",
+      "CDPIngest",
+    ]
+  }
+  oauthPolicy = {
+    ipRelaxation = "ENFORCE"
+    refreshTokenPolicy = "infinite"
+  }
+  _alias = "Ofers Salto"
+}

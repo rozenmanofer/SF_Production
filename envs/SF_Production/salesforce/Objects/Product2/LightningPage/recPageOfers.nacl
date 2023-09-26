@@ -1,0 +1,35 @@
+salesforce.LightningPage recPageOfers {
+  flexiPageRegions = [
+    {
+      name = "header"
+      type = "Region"
+    },
+    {
+      name = "leftsidebar"
+      type = "Region"
+    },
+    {
+      name = "main"
+      type = "Region"
+    },
+    {
+      name = "rightsidebar"
+      type = "Region"
+    },
+  ]
+  masterLabel = "recPageOfers"
+  sobjectType = "Product2"
+  template = {
+    name = "flexipage:recordHomeThreeColHeaderTemplateDesktop"
+    properties = {
+      name = "enablePageActionConfig"
+      value = "false"
+    }
+  }
+  type = "RecordPage"
+  fullName = "recPageOfers"
+  _parent = [
+    salesforce.Product2,
+  ]
+  _alias = "recPageOfers"
+}

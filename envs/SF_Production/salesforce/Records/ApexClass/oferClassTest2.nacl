@@ -1,0 +1,7 @@
+salesforce.ApexClass oferClassTest2 {
+  apiVersion = 57
+  status = "Active"
+  fullName = "oferClassTest2"
+  content = file("salesforce/Records/ApexClass/oferClassTest2.cls")
+  _alias = "oferClassTest2"
+}
