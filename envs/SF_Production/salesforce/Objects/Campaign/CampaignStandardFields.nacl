@@ -264,7 +264,7 @@ type salesforce.Campaign {
   }
   salesforce.Picklist Status {
     apiName = "Campaign.Status"
-    businessStatus = "Active"
+    
     restricted = false
     label = "Status"
     createable = true

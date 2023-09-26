@@ -11,7 +11,7 @@ type salesforce.Account {
   }
   salesforce.Picklist AccountSource {
     apiName = "Account.AccountSource"
-    complianceGroup = "PII;GDPR;COPPA"
+    
     restricted = false
     label = "Account Source"
     createable = true
