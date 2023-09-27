@@ -48,6 +48,34 @@ salesforce.Layout Account_Account__28Support_29_Layout@bspps {
               field = salesforce.Account.field.health__c
             },
             {
+              behavior = "Readonly"
+              field = salesforce.Account.field.X06_07_13_04__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.ofer_checkbox__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.ofer_currency__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.my_email__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.my_pick__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.Ofer_s_email_is2__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.official_website__c
+            },
+            {
               behavior = "Edit"
               field = salesforce.Account.field.checkbox8thJuneOfer__c
             },
