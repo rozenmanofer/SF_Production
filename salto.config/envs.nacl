@@ -1,0 +1,16 @@
+envs {
+  envs = [
+    {
+      name = "ae59d5b7-8496-433b-800d-11c5182ef984-SF_Production"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "SF_Production"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+  ]
+}

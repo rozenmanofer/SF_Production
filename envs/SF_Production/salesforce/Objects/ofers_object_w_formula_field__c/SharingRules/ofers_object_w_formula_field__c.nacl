@@ -1,0 +1,7 @@
+salesforce.SharingRules ofers_object_w_formula_field__c {
+  fullName = "ofers_object_w_formula_field__c"
+  _parent = [
+    salesforce.ofers_object_w_formula_field__c,
+  ]
+  _alias = "ofers_object_w_formula_field__c"
+}
