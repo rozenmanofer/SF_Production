@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SupportCaseAssignmentNotification@ud {
+  available = true
+  description = "Notification to rep when case is auto-assigned"
+  encodingKey = "UTF-8"
+  name = "Support: Case Assignment Notification"
+  style = "none"
+  subject = "Case {!Case.CaseNumber}:\"{!Case.Subject}\" auto-assigned to you"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SupportCaseAssignmentNotification"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SupportCaseAssignmentNotification/SupportCaseAssignmentNotification.email")
+  _alias = "Ofers_templates/SupportCaseAssignmentNotification"
+}
