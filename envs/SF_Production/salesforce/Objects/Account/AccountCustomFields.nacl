@@ -65,15 +65,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Email Ofer_s_email_is2__c {
-    apiName = "Account.Ofer_s_email_is2__c"
-    externalId = false
-    label = "Ofer's email is2"
-    unique = false
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
   salesforce.Date SLAExpirationDate__c {
     apiName = "Account.SLAExpirationDate__c"
     externalId = false
@@ -152,15 +144,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.AutoNumber X06_07_13_04__c {
-    apiName = "Account.X06_07_13_04__c"
-    externalId = false
-    label = "field_14:18"
-    createable = false
-    updateable = false
-    queryable = true
-    _hidden_value = true
-  }
+  
   salesforce.Checkbox checkbox8thJuneOfer__c {
     apiName = "Account.checkbox8thJuneOfer__c"
     defaultValue = false
@@ -211,61 +195,10 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Email my_email__c {
-    apiName = "Account.my_email__c"
-    externalId = false
-    label = "my_email"
-    unique = false
-    createable = true
-    updateable = true
-    queryable = true
-  }
-  salesforce.Picklist my_pick__c {
-    apiName = "Account.my_pick__c"
-    externalId = false
-    label = "my_pick"
-    valueSet = [
-      {
-        fullName = "val1"
-        default = false
-        label = "val1"
-      },
-      {
-        fullName = "val2"
-        default = false
-        label = "val2"
-      },
-      {
-        fullName = "val3"
-        default = false
-        label = "val3"
-      },
-    ]
-    sorted = false
-    restricted = true
-    createable = true
-    updateable = true
-    queryable = true
-  }
-  salesforce.Checkbox ofer_checkbox__c {
-    apiName = "Account.ofer_checkbox__c"
-    defaultValue = false
-    externalId = false
-    label = "ofer checkbox"
-    createable = true
-    updateable = true
-    queryable = true
-  }
-  salesforce.Currency ofer_currency__c {
-    apiName = "Account.ofer_currency__c"
-    externalId = false
-    label = "ofer currency"
-    precision = 18
-    scale = 0
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
+  
+  
+  
   salesforce.Email ofer_email__c {
     apiName = "Account.ofer_email__c"
     externalId = false
@@ -275,12 +208,5 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Url official_website__c {
-    apiName = "Account.official_website__c"
-    externalId = false
-    label = "official_website"
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
 }
