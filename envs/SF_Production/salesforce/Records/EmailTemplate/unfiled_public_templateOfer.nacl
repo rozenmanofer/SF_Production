@@ -1,0 +1,12 @@
+salesforce.EmailTemplate unfiled_public_templateOfer@zcd {
+  available = true
+  encodingKey = "UTF-8"
+  name = "templateOfer"
+  style = "none"
+  subject = "Hello customer"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "unfiled$public/templateOfer"
+  content = file("salesforce/Records/EmailTemplate/unfiled$public/templateOfer/templateOfer.email")
+  _alias = "unfiled$public/templateOfer"
+}

@@ -1,0 +1,16 @@
+salesforce.WorkflowRule Account_Ofer_27s_workflow_rule_account@vpsss {
+  fullName = "Account.Ofer%27s workflow rule account"
+  active = false
+  criteriaItems = [
+    {
+      field = salesforce.Account.field.OwnerId
+      operation = "equals"
+      value = "Ofer Rozenman"
+    },
+  ]
+  triggerType = "onCreateOrTriggeringUpdate"
+  _parent = [
+    salesforce.Account,
+  ]
+  _alias = "Account.Ofer%27s workflow rule account"
+}

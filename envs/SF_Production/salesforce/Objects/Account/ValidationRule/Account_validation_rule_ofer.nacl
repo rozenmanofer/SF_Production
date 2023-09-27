@@ -1,0 +1,10 @@
+salesforce.ValidationRule Account_validation_rule_ofer {
+  fullName = "Account.validation_rule_ofer"
+  active = true
+  errorConditionFormula = "true"
+  errorMessage = "oops"
+  _parent = [
+    salesforce.Account,
+  ]
+  _alias = "Account.validation_rule_ofer"
+}
