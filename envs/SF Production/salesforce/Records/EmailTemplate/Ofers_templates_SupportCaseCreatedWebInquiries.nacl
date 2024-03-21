@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SupportCaseCreatedWebInquiries@ud {
+  available = true
+  description = "Notification to customer about case created online"
+  encodingKey = "UTF-8"
+  name = "Support: Case Created (Web Inquiries)"
+  style = "none"
+  subject = "{!Organization.Name} Case {!Case.CaseNumber}: {!Case.Subject}"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SupportCaseCreatedWebInquiries"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SupportCaseCreatedWebInquiries/SupportCaseCreatedWebInquiries.email")
+  _alias = "Ofers_templates/SupportCaseCreatedWebInquiries"
+}

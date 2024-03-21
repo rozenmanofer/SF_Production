@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SupportCaseCreatedPhoneInquiries@ud {
+  available = true
+  description = "Notification to customer about case created through phone call"
+  encodingKey = "UTF-8"
+  name = "Support: Case Created (Phone Inquiries)"
+  style = "none"
+  subject = "Your Genwatt case number {!Case.CaseNumber} has been recorded"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SupportCaseCreatedPhoneInquiries"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SupportCaseCreatedPhoneInquiries/SupportCaseCreatedPhoneInquiries.email")
+  _alias = "Ofers_templates/SupportCaseCreatedPhoneInquiries"
+}

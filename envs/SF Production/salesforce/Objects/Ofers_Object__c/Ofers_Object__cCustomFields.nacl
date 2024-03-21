@@ -1,0 +1,47 @@
+type salesforce.Ofers_Object__c {
+  salesforce.Picklist pickLegoCharacter__c {
+    apiName = "Ofers_Object__c.pickLegoCharacter__c"
+    externalId = false
+    label = "pickLegoCharacter"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "Spidey"
+        default = false
+        label = "Spidey"
+      },
+      {
+        fullName = "Batman"
+        default = false
+        label = "Batman"
+      },
+      {
+        fullName = "Superman"
+        default = false
+        label = "Superman"
+      },
+      {
+        fullName = "Ken"
+        default = false
+        label = "Ken"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text rCloudReferenceID__c {
+    apiName = "Ofers_Object__c.rCloudReferenceID__c"
+    externalId = true
+    label = "R Cloud External Id"
+    length = 40
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}
