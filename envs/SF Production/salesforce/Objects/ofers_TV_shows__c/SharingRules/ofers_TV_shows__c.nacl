@@ -1,0 +1,7 @@
+salesforce.SharingRules ofers_TV_shows__c {
+  fullName = "ofers_TV_shows__c"
+  _parent = [
+    salesforce.ofers_TV_shows__c,
+  ]
+  _alias = "ofers_TV_shows__c"
+}
