@@ -1,0 +1,24 @@
+type salesforce.ofer_pro__c {
+  salesforce.Checkbox check__c {
+    apiName = "ofer_pro__c.check__c"
+    defaultValue = false
+    externalId = false
+    label = "check"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text rCloudReferenceID__c {
+    apiName = "ofer_pro__c.rCloudReferenceID__c"
+    externalId = true
+    label = "R Cloud External Id"
+    length = 40
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

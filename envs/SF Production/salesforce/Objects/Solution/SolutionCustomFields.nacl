@@ -1,0 +1,13 @@
+type salesforce.Solution {
+  salesforce.Text rCloudReferenceID__c {
+    apiName = "Solution.rCloudReferenceID__c"
+    externalId = true
+    label = "R Cloud External Id"
+    length = 40
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

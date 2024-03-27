@@ -1,0 +1,7 @@
+salesforce.EmailFolder Ofers_templates {
+  accessType = "Public"
+  name = "Ofers templates"
+  publicFolderAccess = "ReadOnly"
+  fullName = "Ofers_templates"
+  _alias = "Ofers_templates"
+}
