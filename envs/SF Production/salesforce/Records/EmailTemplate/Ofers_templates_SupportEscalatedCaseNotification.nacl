@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SupportEscalatedCaseNotification@ud {
+  available = true
+  description = "Notification email on case escalation"
+  encodingKey = "UTF-8"
+  name = "Support: Escalated Case Notification"
+  style = "none"
+  subject = "ESCALATED CASE {!Case.CaseNumber}"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SupportEscalatedCaseNotification"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SupportEscalatedCaseNotification/SupportEscalatedCaseNotification.email")
+  _alias = "Ofers_templates/SupportEscalatedCaseNotification"
+}

@@ -1,0 +1,22 @@
+salesforce.SharingRules Lead {
+  sharingOwnerRules = [
+    {
+      fullName = "LeadSharingRuleOfer"
+      accessLevel = "Read"
+      label = "Lead Sharing Rule Ofer"
+      sharedTo = {
+        roleAndSubordinates = salesforce.Role.instance.CustomerSupportInternational
+      }
+      sharedFrom = {
+        role = [
+          salesforce.Role.instance.DirectorDirectSales,
+        ]
+      }
+    },
+  ]
+  fullName = "Lead"
+  _parent = [
+    salesforce.Lead,
+  ]
+  _alias = "Lead"
+}

@@ -1,0 +1,13 @@
+salesforce.EmailTemplate Ofers_templates_SUPPORTSelfServiceNewCommentNotificationSAMPLE@ud {
+  available = true
+  description = "Sample email template that can be sent to your Self-Service customers to notify them a public comment has been added to their case."
+  encodingKey = "ISO-8859-1"
+  name = "SUPPORT:  Self-Service New Comment Notification (SAMPLE)"
+  style = "none"
+  subject = "Your case {!Case.CaseNumber} has been updated"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "Ofers_templates/SUPPORTSelfServiceNewCommentNotificationSAMPLE"
+  content = file("salesforce/Records/EmailTemplate/Ofers_templates/SUPPORTSelfServiceNewCommentNotificationSAMPLE/SUPPORTSelfServiceNewCommentNotificationSAMPLE.email")
+  _alias = "Ofers_templates/SUPPORTSelfServiceNewCommentNotificationSAMPLE"
+}

@@ -1,0 +1,34 @@
+type salesforce.ofers_object_w_formula_field__c {
+  salesforce.FormulaCheckbox ofer_formula_2__c {
+    apiName = "ofers_object_w_formula_field__c.ofer_formula_2__c"
+    externalId = false
+    formula = "$User.IsActive"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "ofer_formula_2"
+    trackTrending = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.User
+      },
+      {
+        reference = salesforce.User.field.IsActive
+      },
+    ]
+  }
+  salesforce.Text rCloudReferenceID__c {
+    apiName = "ofers_object_w_formula_field__c.rCloudReferenceID__c"
+    externalId = true
+    label = "R Cloud External Id"
+    length = 40
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}
